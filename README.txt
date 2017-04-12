@@ -4,7 +4,7 @@ MyBBAWS Infrastructure
 MyBB is a tiered application architecture consisting of a web, application and database tiers. The web and app tier are compute workloads and database.
 MyBB Cloudformation deployment is a comprehensive deployment which addresses
 - deploying the source code from github
-- Addressing Non functional requirement such as security, scalability, availability and Monitoring.
+- Non functional requirement such as security, scalability, availability and Monitoring.
 The Management Application for Mybb is deployed on us-west-1 region can help in setting the deployment settings and fire the cloud formation from this application.
 
 
