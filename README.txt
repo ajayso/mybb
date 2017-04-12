@@ -14,7 +14,6 @@ To run this project in an AWS Account do the following:
 
 - Create an EC2 KeyPair (required for SSH access, can't be automated by CF);
 - Launch a stack from this template with CloudFormation;
-- ...drink coffee...
 - Go to the URL in the "ELBDNSName" output variable for the live MyBB application.
 
 ## Evaluation Access Account
