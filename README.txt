@@ -30,7 +30,7 @@ Read-only access granted for: CloudFormation, EC2, RDS, S3, SNS and CloudWatch.
 
 
 MyBB application 
-URL: http://ec2-52-53-151-145.us-west-1.compute.amazonaws.com
+URL: http://ec2-13-56-12-176.us-west-1.compute.amazonaws.com
 Administrator Account:
 Username: admin
 Password: 1234
