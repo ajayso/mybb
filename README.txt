@@ -1,42 +1,45 @@
-# MyBBAWS Infrastructure
+MyBBAWS Infrastructure
 
-#                                   
-#  NOTE: Please see the fixed video clip in the Video folder! 
-#                                                             
 
-## Overview
+MyBB is a tiered application architecture consisting of a web, application and database tiers. The web and app tier are compute workloads and database.
+MyBB Cloudformation deployment is a comprehensive deployment which addresses
+- deploying the source code from github
+- Addressing Non functional requirement such as security, scalability, availability and Monitoring.
+The Management Application for Mybb is deployed on us-west-1 region can help in setting the deployment settings and fire the cloud formation from this application.
 
-This is a **complete AWS CloudFormation template** (along with additional required source codes
-residing in the public GitHub repository https://github.com/vpalos/cloudformation-mybb/) for
-running the MyBB application on a scalable, highly-available and secure infrastructure.
 
-### Running the stack
+### Get the Stack running
 
 To run this project in an AWS Account do the following:
 
 - Create an EC2 KeyPair (required for SSH access, can't be automated by CF);
 - Launch a stack from this template with CloudFormation;
 - ...drink coffee...
-- Go to the URL in the "WWWBalancerDNSName" output variable for the live MyBB application.
+- Go to the URL in the "ELBDNSName" output variable for the live MyBB application.
 
 ## Evaluation Access Account
+Evaluation Access
 
-- AWS Console access:
-    - URL: https://851806062413.signin.aws.amazon.com/console
-    - Username: observer
-    - Password: LEoZ$uSy6]Wr
-    - Notes:
-        - Currently there are **2 stacks** deployed in region **us-east-1 (N. Virginia)**.
-        - Read-only access granted for: **CloudFormation, EC2, RDS, S3, SNS and CloudWatch**.
+AWS Console access
+URL: https://747298667540.signin.aws.amazon.com/console
+Username: mybbuserOne
+Password: b!ctgzUqqADs
 
-- MyBB application Administrator Account:
-    - Username: admin
-    - Password: 1234
+Notes:
+Currently there are 2 stacks deployed in region uswest1
+Read-only access granted for: CloudFormation, EC2, RDS, S3, SNS and CloudWatch.
 
-- If you need any other access please [contact me](mailto:valeriupalos@gmail.com)!
 
-## See the detailed documentation!
+MyBB application 
+URL: http://ec2-52-53-151-145.us-west-1.compute.amazonaws.com
+Administrator Account:
+Username: admin
+Password: 1234
 
-This file is only an excerpt of the documentation found in "Design/Documentation.md/pdf".
+Management Application 
+URL: http://ec2-52-53-119-60.us-west-1.compute.amazonaws.com/login.aspx
+Username: xo@crosssover.com
+Password:mexx@2010
 
-Thank you!
+
+The Design document explains the Architecture , Design of mybb and management application
