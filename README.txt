@@ -25,7 +25,7 @@ Username: mybbuserOne
 Password: b!ctgzUqqADs
 
 Notes:
-Currently there are 2 stacks deployed in region uswest1
+Currently there are 1 stack deployed in region uswest1
 Read-only access granted for: CloudFormation, EC2, RDS, S3, SNS and CloudWatch.
 
 
